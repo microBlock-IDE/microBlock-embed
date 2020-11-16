@@ -1,0 +1,25 @@
+{
+  "name": "microblock-embed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon .",
+    "dist": "nodemon . dist -out embed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microBlock-IDE/microBlock-embed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/microBlock-IDE/microBlock-embed/issues"
+  },
+  "homepage": "https://github.com/microBlock-IDE/microBlock-embed#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-minify": "^3.6.0"
+  }
+}
